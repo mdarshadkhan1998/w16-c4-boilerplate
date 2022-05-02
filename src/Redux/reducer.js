@@ -27,7 +27,7 @@ const reducer = (state = initState, { type, payload }) => {
       }
     }
     case GET_PRODUCTS_DATA:{
-      console.log(payload)
+      // console.log(payload)
       return{
         ...state,
         data:payload,
